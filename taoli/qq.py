@@ -1,7 +1,4 @@
 import time
-
-import winsound
-
 import Ashare
 import datetime
 import threading
