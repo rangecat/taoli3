@@ -1,9 +1,9 @@
+# -- coding: utf-8 --**
 import time
 import Ashare
 import datetime
 import threading
 from apps.option_data import *
-from pywebio import *
 import socket   
 qq_xh_list = []
 warmming = False
