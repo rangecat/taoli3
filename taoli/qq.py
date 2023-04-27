@@ -25,7 +25,7 @@ def sound():
 def read_list():
     global qq_xh_list
 
-    f = open("list.txt")
+    f = open("list.txt",encoding='ISO-8859-1')
     lines = f.readlines()
     for i in range(0, len(lines)):
         l = lines[i].split(',')
